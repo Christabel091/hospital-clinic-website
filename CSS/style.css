@@ -1,3 +1,20 @@
-.root{
-    
+:root{
+    --bg: #f0abcd;
+    --con:hsla(125, 62%, 31%, 0.606);
+    --hm: #4f3d3d;
+}
+
+body{
+    background-color:var(--con);
+}
+
+#home{
+    color: var(--hm);
+    font-weight: bolder;
+    border: 3px, solid;
+}
+
+#butt{
+    background-color: var(--hm);
+    color: #fff;
 }
