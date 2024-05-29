@@ -11,7 +11,8 @@ body{
 #home{
     color: var(--hm);
     font-weight: bolder;
-    border: 3px, solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px, solid;
 }
 
 #butt{
