@@ -3,16 +3,18 @@
     --con:hsla(186, 60%, 28%, 0.685);
     --hm: #4f3d3d;
     --bg: #fdf5f9;
+    --wh: #ecdcdc;
 }
 
 body{
     background-color:var(--bg);
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
-/* header{
-    background-color: var(--cb);
-} */
+.hospital-header{
+    background-color: var(--wh);
+}
 .hospital-phone{
     color: var(--hm);
     padding: 25px;
@@ -41,6 +43,7 @@ body{
     color: var(--bg);
     font-weight: bolder;
     border-radius: 30px;
+    word-spacing: 3px;
     padding: 7px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 2px solid;
@@ -94,7 +97,7 @@ body{
 .service-box {
     text-align: center;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     border-radius: 12px;
     background-color: var(--cb);
 }
@@ -124,7 +127,7 @@ footer .social-icons a {
 
 .meet-doctor img {
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(236, 115, 206, 0.4);
 }
 
 .meet-doctor h3 {
@@ -159,4 +162,55 @@ footer .social-icons a {
     color: var(--bg); /* Set the color of navigation links */
     font-weight: bolder;
     font-size: larger;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+    background-color: #ccc;
+}
+
+@media (max-width: 768px) {
+    .container .row {
+        margin-bottom: 20px;
+    }
+}
+
+.location {
+    background-color: #fff;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+}
+
+.next-container {
+    background-color: var(--bg);
+    padding: 50px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.next-container h2 {
+    color: var(--hm); 
+    
+}
+
+.next-container ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.next-container ul li {
+    margin-bottom: 10px; 
+}
+
+.next-container ul li a {
+    color: var(--hm); 
+    text-decoration: none; 
+}
+
+.next-container ul li a:hover {
+    text-decoration: underline;
+    color: var(--cb);
 }
