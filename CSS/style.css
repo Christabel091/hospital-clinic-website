@@ -1,21 +1,162 @@
 :root{
-    --bg: #f0abcd;
+    --cb: #f0abcd;
     --con:hsla(186, 60%, 28%, 0.685);
     --hm: #4f3d3d;
+    --bg: #fdf5f9;
 }
 
 body{
-    background-color:var(--con);
+    background-color:var(--bg);
+    
 }
 
-#home{
+/* header{
+    background-color: var(--cb);
+} */
+.hospital-phone{
     color: var(--hm);
+    padding: 25px;
     font-weight: bolder;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 1px, solid;
+    font-size: larger;
+}
+/* Custom CSS */
+.no-margin-padding {
+    margin: 0;
+    padding: 0;
 }
 
-#butt{
+#navBar{
+    background-color: var(--hm);
+}
+
+.navbar-toggler-icon {
+    color: var(--bg); /* Set the color of the navbar toggler icon */
+}
+.mynavBar {
+    padding-top: 35px; /* Adjust this value as needed */
+    padding-bottom: 35px; /* Adjust this value as needed */
+    background-color:  var(--hm);
+}
+.home{
+    color: var(--bg);
+    font-weight: bolder;
+    border-radius: 30px;
+    padding: 7px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid;
+}
+
+
+.header-image {
+    background-image: url('../hospital.webp'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.header-image h1,
+.header-image h2 {
+    color: var(--hm);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0; /* Ensure no margin between h1 and h2 */
+    opacity: 0; /* Start hidden */
+    animation: floatIn 2s forwards; /* Apply the animation */
+}
+
+
+/* Delayed animation for h2 */
+.header-image h2 {
+    animation-delay: 1s;
+}
+
+@keyframes floatIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px); /* Start slightly below */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End in the correct position */
+    }
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.service-box {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    background-color: var(--cb);
+}
+
+.service-box h3 {
+    margin-bottom: 20px;
+}
+
+.service-box p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+footer {
+    background-color: var(--hm);
+    color: white;
+    padding: 20px 0;
+}
+
+footer .social-icons a {
+    font-size: 1.5rem;
+}
+
+.meet-doctor {
+    padding: 50px 0;
+}
+
+.meet-doctor img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.meet-doctor h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.meet-doctor p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.btn2{
+    background-color: var(--cb);
+    border-radius: 30px;
+    padding: 13px;
+    color: var(--hm);
+    text-decoration: none; /* Remove underline from the links */
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#butt {
     background-color: var(--hm);
     color: #fff;
+}
+
+.nav-link {
+    color: var(--bg); /* Set the color of navigation links */
+    font-weight: bolder;
+    font-size: larger;
 }
