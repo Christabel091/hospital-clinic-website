@@ -4,54 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <!-- Linking to Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand " id="home"  href="index.html">Chimex</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="about.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Appointment</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Online Consultation</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Enquiry
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Fee Enquiry</a></li>
-                  <li><a class="dropdown-item" href="#">Job Enquiry</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">doctor Enquiry</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light navbar-light no-margin-padding">
+            <div class="container">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <p class="hospital-phone my-0">Hospital Phone: 234-80-335-60-232</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Navigation Bar with Bootstrap 5 classes and your custom class -->
+    <nav class="navbar navbar-expand-lg bg-light no-margin-padding">
+        <div class="container-fluid mynavBar">
+            <a class="navbar-brand home" href="index.html">Chimex</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Consult</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Enquiry
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Fee Enquiry</a></li>
+                            <li><a class="dropdown-item" href="#">Job Enquiry</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Doctor Enquiry</a></li>
+                        </ul>
+                    </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button type="button" class="btn btn-info" id="butt">Search</button>
-            </form>
-          </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button type="button" class="btn btn-info" id="butt">Search</button>
+                </form>
+            </div>
         </div>
-      </nav>
-          
+    </nav>
+
+    <!-- First Container with Image Background -->
+    <div class="header-image">
+        <h1>CHIMEX SPECIALIST</h1>
+        <h2>WOMEN'S HEALTH | NNEWI NIGERIA</h2>
+    </div>
+
+    <!-- Second Container with Floating Columns -->
+    <div class="container services">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service-box">
+                    <h3>Women's Health</h3>
+                    <p>Comprehensive healthcare services for women, including gynecology, maternity care, and more.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box">
+                    <h3>Men's Health</h3>
+                    <p>Dedicated services for men's health, including preventive screenings, urology, and wellness programs.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box">
+                    <h3>Pediatrics</h3>
+                    <p>Specialized care for children, from newborns to adolescents, ensuring healthy growth and development.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container meet-doctor">
+      <div class="row align-items-center mb-5">
+          <div class="col-md-6">
+              <img src="person2.jpg" alt="Dr. Prof. Obi Nwosu" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+              <h3>MEET Dr. Prof. Obi Nwosu</h3>
+              <p>Dr. Prof. Obi Nwosu is a renowned gynecologist with over 20 years of experience in women's health. His dedication to providing comprehensive and compassionate care has made him a trusted figure in the medical community. Dr. Nwosu specializes in minimally invasive surgery, prenatal care, and managing complex gynecological conditions.</p>
+              <a href="https://profile.unizik.edu.ng/nau2986" class="btn2">Contact me</a>
+          </div>
+      </div>
+      <div class="row align-items-center">
+          <div class="col-md-6 order-md-2">
+              <img src="person1.jpg" alt="Dr. Jane Doe" class="img-fluid">
+          </div>
+          <div class="col-md-6 order-md-1">
+              <h3>MEET Dr. Mrs Obi-Nwosu</h3>
+              <p>Dr Mrs Obi-Nwosu is a highly respected family physician who has been serving families for over 15 years. She is known for her holistic approach to healthcare, emphasizing preventive care and patient education. Dr. Obi-Nwosu provides a wide range of services, from routine check-ups to managing chronic illnesses, ensuring her patients receive the best possible care for all age and sizes.</p>
+              <a href="https://profile.unizik.edu.ng/nau5127"  class="btn2">Contact me</a>
+          </div>
+      </div>
+  </div>
+
+    <!-- Footer -->
+    <footer class="text-white pt-4 pb-4">
+      <div class="container text-center">
+          <p class="mb-1">CHIMEX</p>
+          <div class="social-icons">
+              <a href="#" class="text-white me-3">
+                  <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="text-white me-3">
+                  <i class="bi bi-twitter"></i>
+              </a>
+              <a href="#" class="text-white me-3">
+                  <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="text-white">
+                  <i class="bi bi-linkedin"></i>
+              </a>
+          </div>
+      </div>
+  </footer>
+    <!-- Linking to Bootstrap 5 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5ns7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="./Js/bootstrap.min.js"></script>
     <script src="./Js/bootstrap.bundle.min.js"></script>
     
-  </body>
+</body>
 </html>
