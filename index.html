@@ -10,16 +10,11 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-light navbar-light no-margin-padding">
-            <div class="container">
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <p class="hospital-phone my-0">Hospital Phone: 234-80-335-60-232</p>
-                </div>
-            </div>
-        </nav>
+    <header class="hospital-header py-2">
+        <div class="container">
+            <p class="hospital-phone my-0">Hospital Phone: 234-80-335-60-232</p>
+        </div>
     </header>
-
     <!-- Navigation Bar with Bootstrap 5 classes and your custom class -->
     <nav class="navbar navbar-expand-lg bg-light no-margin-padding">
         <div class="container-fluid mynavBar">
@@ -85,54 +80,130 @@
         </div>
     </div>
 
+    <!-- Meet the Doctors Container -->
     <div class="container meet-doctor">
-      <div class="row align-items-center mb-5">
-          <div class="col-md-6">
-              <img src="person2.jpg" alt="Dr. Prof. Obi Nwosu" class="img-fluid">
-          </div>
-          <div class="col-md-6">
-              <h3>MEET Dr. Prof. Obi Nwosu</h3>
-              <p>Dr. Prof. Obi Nwosu is a renowned gynecologist with over 20 years of experience in women's health. His dedication to providing comprehensive and compassionate care has made him a trusted figure in the medical community. Dr. Nwosu specializes in minimally invasive surgery, prenatal care, and managing complex gynecological conditions.</p>
-              <a href="https://profile.unizik.edu.ng/nau2986" class="btn2">Contact me</a>
-          </div>
-      </div>
-      <div class="row align-items-center">
-          <div class="col-md-6 order-md-2">
-              <img src="person1.jpg" alt="Dr. Jane Doe" class="img-fluid">
-          </div>
-          <div class="col-md-6 order-md-1">
-              <h3>MEET Dr. Mrs Obi-Nwosu</h3>
-              <p>Dr Mrs Obi-Nwosu is a highly respected family physician who has been serving families for over 15 years. She is known for her holistic approach to healthcare, emphasizing preventive care and patient education. Dr. Obi-Nwosu provides a wide range of services, from routine check-ups to managing chronic illnesses, ensuring her patients receive the best possible care for all age and sizes.</p>
-              <a href="https://profile.unizik.edu.ng/nau5127"  class="btn2">Contact me</a>
-          </div>
-      </div>
-  </div>
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <img src="person2.jpg" alt="Dr. Prof. Obi Nwosu" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h3>MEET Dr. Prof. Obi Nwosu</h3>
+                <p>Dr. Prof. Obi Nwosu is a renowned gynecologist with over 20 years of experience in women's health. His dedication to providing comprehensive and compassionate care has made him a trusted figure in the medical community. Dr. Nwosu specializes in minimally invasive surgery, prenatal care, and managing complex gynecological conditions.</p>
+                <a href="https://profile.unizik.edu.ng/nau2986" class="btn2">Contact me</a>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-6 order-md-2">
+                <img src="person1.jpg" alt="Dr. Jane Doe" class="img-fluid">
+            </div>
+            <div class="col-md-6 order-md-1">
+                <h3>MEET Dr. Mrs Obi-Nwosu</h3>
+                <p>Dr Mrs Obi-Nwosu is a highly respected family physician who has been serving families for over 15 years. She is known for her holistic approach to healthcare, emphasizing preventive care and patient education. Dr. Obi-Nwosu provides a wide range of services, from routine check-ups to managing chronic illnesses, ensuring her patients receive the best possible care for all age and sizes.</p>
+                <a href="https://profile.unizik.edu.ng/nau5127" class="btn2">Contact me</a>
+            </div>
+        </div>
+    </div>
 
+    <!-- New Location Container -->
+    <div class="container location">
+        <div class="row align-items-center mb-5">
+            <div class="col-md-4">
+                <h2>Where are we Located?</h2>
+                <p><strong>Address:</strong> 80 SS Edokwe Street / Ezemewi Road, Abubor Nnewichi, Nnewi, Nigeria</p>
+                <p><strong>Which Building?</strong> The orange building, The first door on the right</p>
+                <p><strong>Parking:</strong> Neighbouring Area</p>
+            </div>
+            <div class="col-md-8">
+                <div class="map" id="map">
+                    <!-- Embed a map here -->
+                    <!-- For example, using Google Maps Embed API -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.4563356727257!2d6.931431073722049!3d6.018907194030778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10437d86d28b0b8b%3A0x946cc17482a9671d!2s80%20SS%20Edokwe%20St%2C%20Nnewi!5e0!3m2!1sen!2sng!4v1628764550921!5m2!1sen!2sng" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container next-container my-5">
+        <div class="row">
+            <div class="col-md-3">
+                <h2>Centre of Excellence</h2>
+                <ul>
+                    <li><a href="#">Gynecology</a></li>
+                    <li><a href="#">Obstetrics</a></li>
+                    <li><a href="#">Maternity Care</a></li>
+                    <li><a href="#">Infants</a></li>
+                    <!-- Add more expertise based on previous information -->
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h2>Locations</h2>
+                <ul>
+                    <li><a href="#">Primary Care</a></li>
+                    <li><a href="#">Surgery Department</a></li>
+                    <li><a href="#">Emergency Room</a></li>
+                    <li><a href="#">Pharmacy</a></li>
+                    <!-- Add more locations as needed -->
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h2>Patients</h2>
+                <ul>
+                    <li><a href="#">Find a Doctor</a></li>
+                    <li><a href="#">Book an Appointment</a></li>
+                    <li><a href="#">Medical Records</a></li>
+                    <li><a href="#">Consultation</a></li>
+                    <li><a href="#">Enquiry</a></li>
+                    <!-- Add more patient-related links -->
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h2>Visitors</h2>
+                <ul>
+                    <li><a href="#">Hospital Facilities</a></li>
+                    <li><a href="#">Visiting Hours</a></li>
+                    <li><a href="#">Contact Information</a></li>
+                    <!-- Add more visitor-related links -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    
     <!-- Footer -->
     <footer class="text-white pt-4 pb-4">
-      <div class="container text-center">
-          <p class="mb-1">CHIMEX</p>
-          <div class="social-icons">
-              <a href="#" class="text-white me-3">
-                  <i class="bi bi-facebook"></i>
-              </a>
-              <a href="#" class="text-white me-3">
-                  <i class="bi bi-twitter"></i>
-              </a>
-              <a href="#" class="text-white me-3">
-                  <i class="bi bi-instagram"></i>
-              </a>
-              <a href="#" class="text-white">
-                  <i class="bi bi-linkedin"></i>
-              </a>
-          </div>
-      </div>
-  </footer>
-    <!-- Linking to Bootstrap 5 JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5ns7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script src="./Js/bootstrap.min.js"></script>
-    <script src="./Js/bootstrap.bundle.min.js"></script>
-    
-</body>
-</html>
+        <div class="container text-center">
+            <p class="mb-1">CHIMEX</p>
+            <div class="social-icons">
+                <a href="#" class="text-white me-3">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://x.com/Gosiorahbbi" class="text-white me-3">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" class="text-white me-3">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/chinyere-ulochukwu-880b3365/" class="text-white me-3">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://whatsapp.com/" class="text-white">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+      <!-- Linking to Bootstrap 5 JavaScript -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5ns7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      <script src="./Js/bootstrap.min.js"></script>
+      <script src="./Js/bootstrap.bundle.min.js"></script>
+      
+  </body>
+  </html>
