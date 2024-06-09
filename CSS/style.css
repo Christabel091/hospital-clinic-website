@@ -218,3 +218,14 @@ footer {
     text-decoration: underline;
     color: var(--cb);
 }
+
+.current{
+    color: var(--pg);
+
+}
+
+.appointment{
+    justify-content: center;
+    align-items: center;
+}
+
