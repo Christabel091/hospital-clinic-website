@@ -19,7 +19,7 @@ body{
 }
 .hospital-phone{
     color: var(--hm);
-    padding: 25px;
+    padding: 10px;
     font-weight: bolder;
     font-size: larger;
 }
@@ -53,7 +53,7 @@ body{
 
 
 .header-image {
-    background-image: url('../hospital.webp');
+    background-image: url('../image/hospital.webp');
     background-size: cover;
     background-position: center;
     height: 600px;
