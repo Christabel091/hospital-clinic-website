@@ -60,20 +60,29 @@ Push to the Branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 
 
-License
-not yet accquired. 
+# License
 
-Screenshots
-Home page 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-Appointment Page
+
+## Screenshots
+- Home page 
+![alt text](./assets/image/image.png)
+![alt text](./assets/image/image-1.png)
+![alt text](./assets/image/image-2.png)
+- Appointment Page
+- 
+- in progress
+- Contact Page
 in progress
-Contact Page
-in progress
+
+- in progress
 ## Contact
-Christabel Obi-Nwosu - [my_github](Christabel091) - [email](obinwosugosiorah@gmail.com)
+- Christabel Obi-Nwosu - [my_github](https://github.com/Christabel091)
 
-- [Project_Link:] (https://github.com/Christabel091/hospital-clinic-website)
+- email - obinwosugosiorah@gmail.com
 
+- [Project_Link:](https://github.com/Christabel091/hospital-clinic-website)
+
+
+## Project Status
+
+This project is currently in progress. We are actively working on implementing core features and ensuring the system is robust and user-friendly. Contributions and suggestions are welcome as we continue to develop this project.
