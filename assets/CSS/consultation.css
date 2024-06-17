@@ -1,0 +1,82 @@
+/* Container styles */
+.consultation-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.consultation-container h2 {
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.consultation-container p {
+  color: #666666;
+  margin-bottom: 15px;
+}
+
+/* Appointment Form styles */
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #333333;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+/* Doctor Profiles styles */
+.doctor-profiles .card {
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-profiles .card-title {
+  font-weight: bold;
+  color: #333333;
+}
+
+.doctor-profiles .card-text {
+  color: #666666;
+}
+
+/* Services Offered styles */
+.services-offered ul {
+  list-style-type: none;
+  color: #333333;
+}
+
+.services-offered ul li {
+  margin-bottom: 10px;
+}
+
+/* Patient Forms styles */
+.patient-forms ul {
+  list-style-type: none;
+  color: #333333;
+}
+
+.patient-forms ul li {
+  margin-bottom: 10px;
+}
+
+.patient-forms ul li a {
+  color: #007bff;
+}
+
+.patient-forms ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Insurance Information styles */
+.insurance-information {
+  color: #333333;
+}
