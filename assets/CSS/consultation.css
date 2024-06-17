@@ -12,11 +12,6 @@
   margin-bottom: 20px;
 }
 
-.consultation-container p {
-  color: #666666;
-  margin-bottom: 15px;
-}
-
 /* Appointment Form styles */
 form {
   max-width: 600px;
@@ -69,9 +64,9 @@ form {
 }
 
 .patient-forms ul li a {
-  color: #007bff;
+  color: #4f3d3d;
+  text-decoration: none;
 }
-
 .patient-forms ul li a:hover {
   text-decoration: underline;
 }
