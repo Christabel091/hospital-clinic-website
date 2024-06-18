@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Make an appointment</title>
+    <title>Make an Appointment</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
       rel="stylesheet"
@@ -58,10 +58,22 @@
                 Enquiry
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Fee Enquiry</a></li>
-                <li><a class="dropdown-item" href="#">Job Enquiry</a></li>
+                <li>
+                  <a class="dropdown-item" href="fee_enquiry.html"
+                    >Fee Enquiry</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="job_Enquiry.html"
+                    >Job Enquiry</a
+                  >
+                </li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Doctor Enquiry</a></li>
+                <li>
+                  <a class="dropdown-item" href="Doctor-Enquiry.html"
+                    >Doctor Enquiry</a
+                  >
+                </li>
               </ul>
             </li>
           </ul>
@@ -73,29 +85,28 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-md-6">
           <h1 class="head text-center">Make an Appointment</h1>
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="dateInput" required />
+          <form class="appointmentForm" id="form">
+            <div class="s mb-3">
+              <label for="nameInput" class="form-label">Name</label>
+              <input type="text" class="form-control" id="nameInput" />
+              <small>Error message</small>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="dateInput"
-                required
-              />
+            <div class="s mb-3">
+              <label for="emailInput" class="form-label">Email</label>
+              <input type="email" class="form-control" id="emailInput" />
+              <small>Error message</small>
             </div>
-            <div class="mb-3">
+            <div class="s mb-3">
               <label for="dateInput" class="form-label">Preferred Date</label>
-              <input type="date" class="form-control" id="dateInput" required />
+              <input type="date" class="form-control" id="dateInput" />
+              <small>Error message</small>
             </div>
-            <div class="mb-3">
+            <div class="s mb-3">
               <label for="timeInput" class="form-label">Preferred Time</label>
-              <input type="time" class="form-control" id="timeInput" required />
+              <input type="time" class="form-control" id="timeInput" />
+              <small>Error message</small>
             </div>
-            <div class="mb-3">
+            <div class="s mb-3">
               <label for="reasonInput" class="form-label"
                 >Reason for Appointment</label
               >
@@ -103,8 +114,8 @@
                 class="form-control"
                 id="reasonInput"
                 rows="3"
-                required
               ></textarea>
+              <small>Error message</small>
             </div>
             <button type="submit" class="btn2">Schedule Appointment</button>
           </form>
@@ -122,17 +133,16 @@
             <li><a href="#">Obstetrics</a></li>
             <li><a href="#">Maternity Care</a></li>
             <li><a href="#">Infants</a></li>
-            <!-- Add more expertise based on previous information -->
           </ul>
         </div>
         <div class="col-md-3">
           <h2>Locations</h2>
+          b
           <ul>
             <li><a href="#">Primary Care</a></li>
             <li><a href="#">Surgery Department</a></li>
             <li><a href="#">Emergency Room</a></li>
             <li><a href="#">Pharmacy</a></li>
-            <!-- Add more locations as needed -->
           </ul>
         </div>
         <div class="col-md-3">
@@ -143,7 +153,6 @@
             <li><a href="#">Medical Records</a></li>
             <li><a href="#">Consultation</a></li>
             <li><a href="#">Enquiry</a></li>
-            <!-- Add more patient-related links -->
           </ul>
         </div>
         <div class="col-md-3">
@@ -152,7 +161,6 @@
             <li><a href="#">Hospital Facilities</a></li>
             <li><a href="#">Visiting Hours</a></li>
             <li><a href="#">Contact Information</a></li>
-            <!-- Add more visitor-related links -->
           </ul>
         </div>
       </div>
@@ -167,7 +175,7 @@
           <ul class="list-unstyled">
             <li>Monday - Friday: 8:00 AM - 5:00 PM</li>
             <li>Saturday: 9:00 AM - 2:00 PM</li>
-            <li>Sunday: open all day</li>
+            <li>Sunday: Open all day</li>
           </ul>
         </div>
         <div class="col-md-4 text-center">
@@ -202,15 +210,9 @@
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5ns7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
-    <script src="../assets/Js/bootstrap.min.js"></script>
-    <script src="../assets/Js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/Js/form_validate.js"></script>
   </body>
 </html>
