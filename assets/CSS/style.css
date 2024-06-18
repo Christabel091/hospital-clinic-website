@@ -1,231 +1,230 @@
-:root{
-    --cb: #f0abcd;
-    --con:hsla(186, 60%, 28%, 0.685);
-    --hm: #4f3d3d;
-    --bg: #fdf5f9;
-    --wh: #f1f1f1;
-    --pg:rgba(237, 179, 223, 0.974);;
+:root {
+  --cb: #f0abcd;
+  --con: hsla(186, 60%, 28%, 0.685);
+  --hm: #4f3d3d;
+  --bg: #fdf5f9;
+  --wh: #f1f1f1;
+  --pg: rgba(237, 179, 223, 0.974);
 }
 
-body{
-    background-color:var(--bg);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+body {
+  background-color: var(--bg);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.hospital-header{
-    background-color: var(--wh);
-    text-align: right;
+.hospital-header {
+  background-color: var(--wh);
+  text-align: right;
 }
-.hospital-phone{
-    color: var(--hm);
-    padding: 10px;
-    font-weight: bolder;
-    font-size: larger;
+.hospital-phone {
+  color: var(--hm);
+  padding: 10px;
+  font-weight: bolder;
+  font-size: larger;
 }
 /* Custom CSS */
 .no-margin-padding {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-#navBar{
-    background-color: var(--hm);
+#navBar {
+  background-color: var(--hm);
 }
 
 .navbar-toggler-icon {
-    color: var(--bg); 
+  color: var(--bg);
 }
 .mynavBar {
-    padding-top: 35px; 
-    padding-bottom: 35px; 
-    background-color:  var(--hm);
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: var(--hm);
 }
-.home{
-    color: var(--bg);
-    font-weight: bolder;
-    border-radius: 30px;
-    word-spacing: 3px;
-    padding: 7px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 2px solid;
+.home {
+  color: var(--bg);
+  font-weight: bolder;
+  border-radius: 30px;
+  word-spacing: 3px;
+  padding: 7px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: 2px solid;
 }
-
 
 .header-image {
-    background-image: url('../image/hospital.webp');
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    min-height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
+  background-image: url("../image/hospital.webp");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
 }
 
 .header-image h1,
 .header-image h2 {
-    color: var(--hm);
-    padding: 20px;
-    border-radius: 10px;
-    margin: 0; 
-    opacity: 0; /* Start hidden */
-    animation: floatIn 2s forwards; /* Apply the animation */
+  color: var(--hm);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0;
+  opacity: 0; /* Start hidden */
+  animation: floatIn 2s forwards; /* Apply the animation */
 }
-
 
 /* Delayed animation for h2 */
 .header-image h2 {
-    animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 @keyframes floatIn {
-    0% {
-        opacity: 0;
-        transform: translateY(30px); 
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0); 
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .services {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .service-box {
-    text-align: center;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    border-radius: 12px;
-    background-color: var(--cb);
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  background-color: var(--cb);
 }
 
 .service-box h3 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .service-box p {
-    font-size: 1.1rem;
-    color: #666;
+  font-size: 1.1rem;
+  color: #666;
 }
 
 footer {
-    background-color: var(--hm);
-    color: white;
-    padding: 45px 0;
+  background-color: var(--hm);
+  color: white;
+  padding: 45px 0;
 }
 
 .social-icons a {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .meet-doctor {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .meet-doctor img {
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(236, 115, 206, 0.4);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(236, 115, 206, 0.4);
 }
 
 .meet-doctor h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-    color: #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
 }
 
 .meet-doctor p {
-    font-size: 1.1rem;
-    color: #666;
+  font-size: 1.1rem;
+  color: #666;
 }
 
-.btn2{
-    background-color: var(--cb);
-    border-radius: 30px;
-    padding: 13px;
-    color: var(--hm);
-    text-decoration: none; 
-    font-size: larger;
-    font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.btn2 {
+  background-color: var(--cb);
+  padding: 13px;
+  margin-bottom: 15px;
+  color: var(--hm);
+  width: 100%;
+  font-weight: bolder;
+  border: 2px solid;
+  font-size: 16px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #butt {
-    background-color: var(--hm);
-    color: #fff;
+  background-color: var(--hm);
+  color: #fff;
 }
 
 .nav-link {
-    color: var(--bg); /* Set the color of navigation links */
-    font-weight: bolder;
-    font-size: larger;
+  color: var(--bg); /* Set the color of navigation links */
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .map {
-    width: 100%;
-    height: 300px;
-    background-color: #ccc;
+  width: 100%;
+  height: 300px;
+  background-color: #ccc;
 }
 
 @media (max-width: 768px) {
-    .container .row {
-        margin-bottom: 20px;
-    }
+  .container .row {
+    margin-bottom: 20px;
+  }
 }
 
 .location {
-    background-color:var(--cb);
-    margin-bottom: 50px;
-    padding: 80px;
-    justify-content: center;    
-    box-shadow: 0 4px 8px rgba(236, 115, 206, 0.4);
-    border-radius: 10px; 
-    
+  background-color: var(--cb);
+  margin-bottom: 50px;
+  padding: 80px;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(236, 115, 206, 0.4);
+  border-radius: 10px;
 }
 
 .next-container {
-    background-color: var(--bg);
-    padding: 50px;
-    
+  background-color: var(--bg);
+  padding: 50px;
 }
 
 .next-container h2 {
-    color: var(--hm); 
-    margin-bottom: 0;
+  color: var(--hm);
+  margin-bottom: 0;
 }
 
 .next-container ul {
-    list-style: none; 
-    padding: 0; 
+  list-style: none;
+  padding: 0;
 }
 
 .next-container ul li {
-    margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .next-container ul li a {
-    color: var(--hm); 
-    text-decoration: none; 
+  color: var(--hm);
+  text-decoration: none;
 }
 
 .next-container ul li a:hover {
-    text-decoration: underline;
-    color: var(--cb);
+  text-decoration: underline;
+  color: var(--cb);
 }
 
-.current{
-    color: var(--pg);
-
+.current {
+  color: var(--pg);
 }
 
-.appointment{
-    justify-content: center;
-    align-items: center;
+.appointment {
+  justify-content: center;
+  align-items: center;
 }
-

@@ -75,3 +75,8 @@ form {
 .insurance-information {
   color: #333333;
 }
+
+.btn2:hover {
+  background-color: #4f3d3d;
+  color: aliceblue;
+}
