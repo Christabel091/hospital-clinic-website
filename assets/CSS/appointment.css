@@ -45,24 +45,28 @@
   width: 100%;
 }
 
+.s {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.s small {
+  color: #d43538;
+  font-size: 0.875em;
+  margin-top: 0.25rem;
+  display: none;
+}
+
+.s.error small {
+  display: block;
+}
+
 .s.success input,
 .s.success textarea {
-  border-color: #2ecc71;
+  border-color: #21e071;
 }
 
 .s.error input,
 .s.error textarea {
-  border-color: red;
-}
-
-.s.error small {
-  color: #f3070b;
-  visibility: visible;
-}
-
-.s small {
-  visibility: hidden;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  border-color: rgb(212, 69, 76);
 }
