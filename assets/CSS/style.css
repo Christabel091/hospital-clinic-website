@@ -15,22 +15,25 @@ body {
 
 .hospital-header {
   background-color: var(--wh);
-  text-align: right;
+  /* text-align: right; */
+}
+
+.Heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .hospital-phone {
   color: var(--hm);
   padding: 10px;
   font-weight: bolder;
-  font-size: larger;
+  font-size: large;
+  margin-bottom: 0;
 }
 /* Custom CSS */
 .no-margin-padding {
   margin: 0;
   padding: 0;
-}
-
-#navBar {
-  background-color: var(--hm);
 }
 
 .navbar-toggler-icon {
@@ -41,7 +44,7 @@ body {
   padding-bottom: 35px;
   background-color: var(--hm);
 }
-.home {
+/* .home {
   color: var(--bg);
   font-weight: bolder;
   border-radius: 30px;
@@ -49,7 +52,7 @@ body {
   padding: 7px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border: 2px solid;
-}
+} */
 
 .header-image {
   background-image: url("../image/hospital.webp");
