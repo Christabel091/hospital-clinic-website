@@ -86,7 +86,7 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-md-6">
           <h1 class="head text-center">Make an Appointment</h1>
-          <form class="appointmentForm" id="form">
+          <form class="appointmentForm" id="appointment-form">
             <div class="s mb-3">
               <label for="nameInput" class="form-label">Name</label>
               <input type="text" class="form-control" id="nameInput" />
@@ -99,12 +99,12 @@
             </div>
             <div class="s mb-3">
               <label for="dateInput" class="form-label">Preferred Date</label>
-              <input type="date" class="form-control" id="dateInput" />
+              <input type="date" class="form-control" id="date" />
               <small>Error message</small>
             </div>
             <div class="s mb-3">
               <label for="timeInput" class="form-label">Preferred Time</label>
-              <input type="time" class="form-control" id="timeInput" />
+              <input type="time" class="form-control" id="time" />
               <small>Error message</small>
             </div>
             <div class="s mb-3">
@@ -113,12 +113,12 @@
               >
               <textarea
                 class="form-control"
-                id="reasonInput"
+                id="description"
                 rows="6"
               ></textarea>
               <small>Error message</small>
             </div>
-            <button type="submit" class="btn2">Schedule Appointment</button>
+            <button type="submit" class="btn3">Schedule Appointment</button>
           </form>
         </div>
       </div>
@@ -214,6 +214,7 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script src="../assets/Js/appointmentForm.js"></script>
     <script src="../assets/Js/form_validate.js"></script>
   </body>
 </html>
