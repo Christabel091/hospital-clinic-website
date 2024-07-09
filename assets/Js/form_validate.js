@@ -8,6 +8,7 @@ const reason = document.getElementById("reasonInput");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   checkInput();
+  //
 });
 
 function checkInput() {

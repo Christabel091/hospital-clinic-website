@@ -32,7 +32,7 @@
 .form-control {
   border: 3px solid #f0f0f0;
   border-radius: 19px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   padding: 15px;
   width: 100%;
 }
@@ -71,8 +71,8 @@
 .s small {
   color: #d43538;
   font-size: 0.875em;
-  margin-top: 0.25rem;
   display: none;
+  margin-bottom: 10px;
 }
 
 .s.error small {

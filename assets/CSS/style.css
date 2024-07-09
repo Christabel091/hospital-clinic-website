@@ -18,10 +18,8 @@ body {
   /* text-align: right; */
 }
 
-.Heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.para {
+  text-align: right;
 }
 .hospital-phone {
   color: var(--hm);
@@ -224,7 +222,7 @@ footer {
 }
 
 .current {
-  color: var(--pg);
+  color: var(--cb);
 }
 
 .appointment {
